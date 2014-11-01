@@ -50,6 +50,10 @@ footer{
 	bottom: 0;
 }
 
+footer a{
+	color: #666;
+}
+
 #footer-left{
 	float:left;
 }
@@ -64,7 +68,7 @@ footer{
 
 #footer-right li{
 	margin-right: 30px;
-
+	display: inline;
 }
 
 
@@ -73,6 +77,7 @@ footer{
 }
 
 #menu_items{
+	font-size: 14px;
 	height: 30px;
 	width: 100%;
 }
@@ -83,12 +88,21 @@ footer{
 	padding: 7px 15px;
 }
 
-#menu_items li{
+#menu_items li {
 	margin-left: 10px;
-	margin-top: 5px;
+	color: #404040;
+}
+
+#menu_items a {
+		color: #404040;
+}
+
+#menu_items li:not(#user) {
+	margin-top: 3px;
 }
 
 #user{
+	padding-top: 0;
 	padding-right: 15px;
 }
 
@@ -102,6 +116,6 @@ footer{
 
 #logo{
 	height: 150px;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: 170px;
 }
