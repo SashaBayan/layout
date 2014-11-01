@@ -1,3 +1,107 @@
-body {
-  /* rules go here */
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	opacity: 0.4;
+}
+
+a:active{
+	color: blue;
+	padding-top: 10px;
+}
+
+li{
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	list-style-type: none;
+}
+
+li:hover{
+	text-decoration: underline;
+}
+
+input{
+	width:540px;
+	height: 20px;
+}
+
+div{
+	position: relative;
+}
+
+button{
+	width: 106px;
+	height:30px;
+	border-radius: 3px;
+	background-color:#f3f3f3;
+}
+
+footer{
+	width: 100%;
+	height: 43px;
+	background-color: #f2f2f2;
+	position: fixed;
+	bottom: 0;
+}
+
+#footer-left{
+	float:left;
+}
+
+#footer-left li{
+	margin-right: 20px;
+}
+
+#footer-right{
+	float: right;
+}
+
+#footer-right li{
+	margin-right: 30px;
+
+}
+
+
+.text{
+	padding-top: 3px;
+}
+
+#menu_items{
+	height: 30px;
+	width: 100%;
+}
+
+#share{
+	background-color: #f4f4f4;
+	border-radius: 1px;
+	padding: 7px 15px;
+}
+
+#menu_items li{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#user{
+	padding-right: 15px;
+}
+
+#bell{
+	padding-top: 3px;
+}
+
+#apps{
+	padding-top: 5px;
+}
+
+#logo{
+	height: 150px;
+	margin-top: 200px;
+	margin-left: 170px;
 }
