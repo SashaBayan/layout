@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<title>Basecamp is everyone&rsquo;s favorite project management app.</title>
+  	<meta name="description" content="Trusted by millions, Basecamp is the leading web-based project management and collaboration tool. To-dos, files, messages, schedules, and milestones." />
+  	<meta charset="UTF-8">
+   	<link rel="icon" href = "favicon.ico" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+     <script src="jquery.js"></script>
   </head>
   <body>
-    google
+    <nav class = "navigation">
+      <a href = "#"><img src = "images/logo.jpeg"/>Basecamp</a>
+      <ul class="navigation-links">
+      	<div class="navigation-desktop">
+      	  <li><a href="#">See prices & start a free trial</a></li>	
+      	  <li><a href="#">Check out an example project</a></li>	
+      	  <li><a href="#">Support</a></li>	
+      	</div>
+	</nav>
+      </ul>
+
+
+
+    <figure class ="cartoons">
+    
+    <div align="center"><img id = "cartoon" src="images/cartoon 1.png"/></div>
+
+    </figure>
+
   </body>
+
+  <script type="text/javascript">
+  	var changeImage = function(){
+  		var x = Math.floor(Math.random() * 10);
+  		var a = "images/cartoon " + x + ".png"
+  		document.getElementById("cartoon").src=a;
+  	}();
+
+
+
+
+
+
+
+
+  </script>
+
 </html>

@@ -1,3 +1,42 @@
 body{
-  /* rules go here */
+  
+}
+
+img{
+	margin: 0;
+	vertical-align: top;
+}
+
+nav{
+	margin: 0;
+	margin-left: 18px;
+	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	vertical-align: top;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+div{
+	display: inline-block;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navigation-desktop{
+	vertical-align: top;
+	float: right;
+}
+
+.navigation-desktop a{
+	color: #0066cc;
+	margin-left: 10px;
+	text-decoration: underline;
 }
