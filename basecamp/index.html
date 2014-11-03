@@ -9,40 +9,137 @@
      <script src="jquery.js"></script>
   </head>
   <body>
+
     <nav class = "navigation">
-      <a href = "#"><img src = "images/logo.jpeg"/>Basecamp</a>
+      <div><a class ="top-left-logo" href = "#"><img src = "images/logo.jpeg"/>Basecamp</a></div>
       <ul class="navigation-links">
       	<div class="navigation-desktop">
       	  <li><a href="#">See prices & start a free trial</a></li>	
       	  <li><a href="#">Check out an example project</a></li>	
       	  <li><a href="#">Support</a></li>	
+          <li><a href = "#"><div class = "button" id="login">Log In</div></a></li>
       	</div>
-	</nav>
       </ul>
-
-
-
+	   </nav>
+      
     <figure class ="cartoons">
-    
-    <div align="center"><img id = "cartoon" src="images/cartoon 1.png"/></div>
-
+      <div><img id = "cartoon" src="images/cartoon 1.png"/></div>
     </figure>
 
+    <section>
+
+      <h1 id = "home-intro">
+        Last year alone, Basecamp helped over 285,000 <br> 
+        companies finish more than 2,000,000 projects.
+      </h1>
+
+      <button> Try it out! </button>
+
+      <h2>
+        What's Basecamp?
+        <p>
+          Basecamp makes it easy for people in different roles with different responsibilities to communicate and work together. It’s a place to share files, have discussions, collaborate on documents, assign tasks, and check due dates. Basecamp stores everything securely and can be accessed at anytime from anywhere.
+          <a href="#"> Read a short story about how Basecamp was born.</a>
+        </p>
+      </h2>
+      <h2>
+        Highly recommended.
+        <p>
+          Primarily through word-of-mouth alone, Basecamp has become the world’s #1 project management tool. For the last 10 years, companies have been switching to Basecamp because it’s famously easy-to-use, reliable, and It Just Works™. Combine that with our best-in-the-biz customer service, and you’ve got a unique and delightful package. Just last week, another 5,024 companies <a href="#">started using Basecamp</a>.
+        </p>
+      </h2>
+      <h2>
+        A track record you can trust.
+        <p>
+          We’ve been in business for 15 years, so you can depend on us to be here when you need us. We’re profitable, debt-free, and privately owned so we answer to our customers and no one else. Our job is to help you do your job better. <a href="#">Learn more about our company</a>.
+        </p>
+      </h2>
+      <h2>
+        On the Mac, PC, iPhone/iPad, Android and via email.
+        <p>
+          Basecamp’s at home on Safari (Mac, iPhone/iPad), Chrome (Mac, PC, iPhone/iPad, Android), Firefox (Mac, PC), and IE 9+ (PC, Surface). Basecamp also integrates effortlessly with email. Official apps are available for <a>Android on Google Play</a>, <a>iPad in the App Store</a>, and <a>iPhone in the App Store</a>.
+        </p>
+      </h2>
+      </section>
+
+      <section id = "screenshots">
+        <img class = "screenshot" src="images/screenshot 1.jpg">
+        <img class = "screenshot" src="images/screenshot 2.jpg">
+        <img class = "screenshot" src="images/screenshot 3.jpg">
+      </section>
+
+      <button> Try it out! </button>
+
+    <section>
+
+    <h2>
+      No “IT Guy” required.
+      <p>
+        Basecamp runs in the cloud <a>on our secure servers</a>, so you don’t have to mess with anything technical. And with a 99.996% uptime record over the last 12 months, Basecamp is rock-solid reliable. If everyone in your group has a web browser or a smartphone, then they already have everything they need to start using Basecamp.
+      </p>
+    </h2>
+    <h2>
+      Can I see how other people use Basecamp?
+      <p>
+        Absolutely. You can <a>see how KEEN Footwear used Basecamp</a> to build their flagship store in Portland, or you can <a>explore Basecamp’s own publicly published projects</a>.
+      </p>
+    </h2>
+    <h2>
+      Free weekly classes + live Q&A.
+      <p>
+        We also offer weekly “Be a Basecamp Pro in 30 minutes” online classes with live Q&A. Here’s the <a>full class schedule.</a>
+      </p>
+    </h2>
+    <h2>
+      Who else uses Basecamp?
+      <p>
+        From freelancers, to small shops, to mid-sized companies, to enormous multinationals, Basecamp is the go-to project management tool for hundreds of thousands of groups world-wide. Check out <a>how a shoe company used Basecamp to help open their new flagship store</a> in Portland, Oregon.
+      </p>
+    </h2>
+
+    </section>
+
+    <div id ="illustration"><img  src="images/illustration.jpg"></div>
+
+    <section id = "section3">
+
+      <p>
+        A touch over 15,000,000 people have used Basecamp at work or for their own personal projects. Ask around, there’s probably already someone at your company who’s used Basecamp before!
+      </p>
+      <h2>
+        A few quick reads and links.
+        <p>
+          There are a lot of project management tools out there, and many of them do the same things. It can be tough to choose. With that in mind, here are a few things we prepared for you.
+        </p>
+      </h2>
+      <ul>
+        <li><a href="#">Check out some of the things people made with Basecamp’s help.</a></li>
+        <li><a href="#">Walk through an actual Basecamp project.</a></li>
+        <li><a href="#">See how Basecamp benefits different people in your organization.</a></li>
+        <li><a href="#">Find out more about our company and our people.</a></li>
+      </ul>
+      <h2>
+        Any other questions we can answer?
+        <p>
+          We do whatever it takes to make sure our customer service is the best in the business. Fast, friendly, knowledgeable, and often hilarious, you’ll feel like old friends in no time. <a>Email us right now</a>. We’ve been responding to emails in 5 minutes lately, so we’ll get back to you super fast!
+        </p>
+      </h2>
+    
+    </section>
+
+    <button>Try it out!</button>
+  
   </body>
 
+
+
   <script type="text/javascript">
-  	var changeImage = function(){
+  	
+    var randomImage = function(){
   		var x = Math.floor(Math.random() * 10);
   		var a = "images/cartoon " + x + ".png"
   		document.getElementById("cartoon").src=a;
   	}();
-
-
-
-
-
-
-
 
   </script>
 

@@ -1,5 +1,44 @@
+
 body{
-  
+font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+
+}
+
+section{
+
+	width: 727px;	
+	text-align: center;
+		margin-left: auto;
+	margin-right: auto;
+}
+
+.navigation-desktop li a {
+	color: #0066cc;
+	text-decoration: underline
+}
+
+h1{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+section h2{
+	text-align: left;
+	font-size: 20px;
+}
+
+section h2 p{
+	font-weight: normal;
+	font-size: 16px;
+
+}
+
+
+
+#section3 p{
+	text-align: left;
 }
 
 img{
@@ -11,23 +50,48 @@ nav{
 	margin: 0;
 	margin-left: 18px;
 	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 24px;
+	font-size: 15.5px;
 	vertical-align: top;
 }
 
-a{
-	text-decoration: none;
-	color: inherit;
+nav li{
+	margin-top: 20px;
 }
 
-div{
-	display: inline-block;
+.top-left-logo{
+	margin-top: 8px;
+	text-decoration: none;
+	color: #333;
 }
+
+#cartoon{
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+nav *{
+	display: inline;
+}
+
+nav > div > a{
+	font-size: 24px;
+	vertical-align: middle;
+
+}
+
+figure > div{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
 
 li{
 	list-style: none;
-	display: inline-block;
 }
 
 .navigation-desktop{
@@ -39,4 +103,44 @@ li{
 	color: #0066cc;
 	margin-left: 10px;
 	text-decoration: underline;
+}
+
+.button{
+	background-color: #06C;
+	text-decoration: none;
+	border: 1px solid #999;
+	font-weight: bold;
+	color: white;
+	border-color: #105296;
+	border-radius: 3px;
+	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+}
+
+#login{
+	background-color: #06C;
+	text-decoration: none;
+	border: 1px solid #999;
+	font-size: 12px;
+	font-weight: bold;
+	padding: .5em 1em;
+	color: white;
+	border-color: #105296;
+	border-radius: 3px;
+	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+}
+
+.login:hover{
+	background-color: #1a7de6;
+}
+
+#illustration{
+	text-align: center;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#screenshots{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
